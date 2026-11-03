@@ -13,3 +13,9 @@ wag modelu ani danych treningowych.
 architektury i kodu. Bezpieczeństwo opiera się na jakości cech, a nie na ukryciu modelu.
 
 **Kryterium sukcesu:** F1-Score > 0.92 oraz FPR < 2% na zbiorze testowym.
+
+
+## Dane
+1. Pobierz dataset: https://www.kaggle.com/datasets/taruntiwarihp/phishing-site-urls
+2. Rozpakuj i umieść `phishing_site_urls.csv` w `data/raw/`.
+3. Uruchom `notebooks/01_eksploracja.ipynb` od początku do końca. Wygeneruje to `data/processed/`.
