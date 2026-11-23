@@ -39,14 +39,14 @@ Zasada: zadania odhaczamy zmieniając `[ ]` na `[x]`. Niczego nie usuwamy.
 - [ ] 2.12 Commit: "Data loading, cleaning and split"
 
 ## Faza 3: Ekstrakcja cech
-- [ ] 3.1 Utworzyć plik `src/features.py`
-- [ ] 3.2 Dodać TF-IDF na n-gramach znakowych (`analyzer='char'`, `ngram_range=(3,5)`), fit tylko na train
-- [ ] 3.3 Napisać funkcję cech strukturalnych (długość, kropki, myślniki, cyfry, `@`, HTTPS, IP, głębokość subdomen)
-- [ ] 3.4 Dodać słowa kluczowe (login, verify, secure, account, update, bank, paypal)
-- [ ] 3.5 Dodać entropię Shannona domeny
-- [ ] 3.6 Przetestować funkcję cech na 3 przykładowych URL-ach i sprawdzić wynik ręcznie
-- [ ] 3.7 Przeskalować cechy strukturalne do wartości nieujemnych (MinMaxScaler, fit tylko na train)
-- [ ] 3.8 Połączyć cechy TF-IDF i strukturalne (`scipy.sparse.hstack`)
+- [x] 3.1 Utworzyć plik `src/features.py`
+- [x] 3.2 Dodać TF-IDF na n-gramach znakowych (`analyzer='char'`, `ngram_range=(3,5)`), fit tylko na train
+- [x] 3.3 Napisać funkcję cech strukturalnych (długość, kropki, myślniki, cyfry, `@`, HTTPS, IP, głębokość subdomen)
+- [x] 3.4 Dodać słowa kluczowe (login, verify, secure, account, update, bank, paypal)
+- [x] 3.5 Dodać entropię Shannona domeny
+- [x] 3.6 Przetestować funkcję cech na 3 przykładowych URL-ach i sprawdzić wynik ręcznie
+- [x] 3.7 Przeskalować cechy strukturalne do wartości nieujemnych (MinMaxScaler, fit tylko na train)
+- [x] 3.8 Połączyć cechy TF-IDF i strukturalne (`scipy.sparse.hstack`)
 - [ ] 3.9 Commit: "Feature extraction"
 
 ## Faza 4: Modele i grupa kontrolna
